@@ -1,0 +1,14 @@
+\documentclass{standalone}
+\usepackage{multirow}
+\begin{document}
+% \caption{不同消融设置下的数据增强表现}
+\begin{tabular}{c||ccc}
+\hline\hline
+\multirow{2}{*}{Method} & \multicolumn{3}{c}{FID}                               \\
+                        & NF-BoT-IoT-V2 & NF-CSE-CIC-IDS2018-V2 & NF-ToN-IoT-V2 \\ \hline
+\textbf{LDNFDDPM}                & \textbf{24.50}         & \textbf{18.30}                 & \textbf{14.90}        \\\hline
+LDDDPM                  & 47.15         & 41.54                 & 37.32         \\ \hline
+NFDDPM                  & 46.28         & 42.56                 & 34.17         \\
+\hline\hline
+\end{tabular}
+\end{document}
